@@ -2,3 +2,6 @@
 
 # Hugo output directory
 /public
+
+# docker-compose
+.env
