@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+  hugo:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    restart: always
+    ports:
+      - "${PORT}:${PORT}"
+    environment:
+      HUGO_BASE_URL: ${HUGO_BASE_URL}
+      HUGO_PORT: ${PORT}
