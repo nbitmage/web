@@ -1,12 +1,13 @@
 version: "3.5"
 services:
   hugo:
+    image: hugo:${HUGO_IMAGE_TAG:-latest}
     build:
       context: .
       dockerfile: docker/Dockerfile
     restart: always
     ports:
-      - "${PORT}:${PORT}"
+      - "${OUTER_PORT}:${HUGO_PORT}"
     environment:
       HUGO_BASE_URL: ${HUGO_BASE_URL}
-      HUGO_PORT: ${PORT}
+      HUGO_PORT: ${HUGO_PORT}
