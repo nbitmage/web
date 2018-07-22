@@ -5,3 +5,10 @@ draft: false
 ---
 
 Test
+
+```ruby:test.rb
+require 'json'
+
+data = JSON.parse('{"hoge": 1, "fuga": 2}')
+puts data
+```
