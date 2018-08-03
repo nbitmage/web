@@ -1,4 +1,5 @@
 baseURL = "http://blog.yeah.net.co/"
+appendPort = false
 languageCode = "en"
 
 title = "octarect's stack"
