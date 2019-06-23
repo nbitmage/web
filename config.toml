@@ -2,8 +2,8 @@ baseURL = "http://blog.yeah.net.co/"
 appendPort = false
 languageCode = "en"
 
-title = "octarect's stack"
-author = "octarect"
+title = "rk074's"
+author = "rk074"
 copyright = "Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 3.0 License."
 
 theme = "hyde-hyde"
@@ -15,7 +15,7 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [params]
-  author = "octarect"
+  author = "rk074"
   description = "programming, video game, etc."
 
   dateformat = "Mon Jan 2 15:04:05, 2006"
@@ -46,7 +46,7 @@ enableEmoji = true
 
   # mainSections = ["post"]
 [params.social]
-  github = "octarect"
+  github = "nbitmage"
   # instagram = ""
   # medium = ""
   # bitbucket = ""
