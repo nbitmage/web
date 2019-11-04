@@ -1,0 +1,9 @@
+---
+apiVersion: rio.cattle.io/v1
+kind: Service
+metadata:
+  name: build-web
+  namespace: default
+spec:
+  build:
+  repo: https://github.com/rkoder/web.git
