@@ -1,0 +1,27 @@
+base_url = "https://blog.yeah.net.co"
+title = "blog.yeah.net.co"
+description = "programming"
+compile_sass = true
+highlight_code = true
+highlight_theme = "monokai"
+generate_rss = false
+
+taxonomies = [
+    {name = "tags", rss = true},
+]
+
+theme = "carbon-blade"
+
+[extra]
+
+# Google Analytics Tracking ID
+google_analytics = "UA-64196163-3"
+
+# Color of carbon-blade theme
+carbon_blade_color = "blue"
+
+# Menu. `$BASE_URL` will be replaced with config.base_url.
+carbon_blade_menu = [
+    {name = "About", url = "$BASE_URL/about/"},
+    {name = "Tags", url = "$BASE_URL/tags/"},
+]
